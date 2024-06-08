@@ -1,0 +1,23 @@
+hero-filedownload.webp
+author="Maksym Kaharlytskyi",
+title="Photo of a file cabinet.",
+url="https://unsplash.com/photos/file-cabinet-Q9y3LRuuxmg",
+urldate = "2024-06-06",
+
+hero-msg.webp
+author="Scott Graham",
+title="Photo of a man writing on paper.",
+url="https://unsplash.com/photos/man-writing-on-paper-OQMZwNd3ThU",
+urldate = "2024-06-06",
+
+why.webp
+author="Caroline LM",
+title="Photo of a man in white dress shirt holding black pen.",
+url="https://unsplash.com/photos/man-in-white-dress-shirt-holding-black-pen--m-4tYmtLlI",
+urldate = "2024-06-06",
+
+hero-start-login.webp
+author="Caroline LM",
+title="Photo of a man in white dress shirt sitting on black office rolling chair.",
+url="https://unsplash.com/photos/man-in-white-dress-shirt-sitting-on-black-office-rolling-chair-QA9fRIi6sFw",
+urldate = "2024-06-06",

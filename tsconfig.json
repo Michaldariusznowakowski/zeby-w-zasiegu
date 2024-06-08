@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": [
+        "resources/ts/**/*.ts",
+        "public/js/**/*.ts",
+        "resources/js/*.ts",
+        "resources/js/utils/*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
