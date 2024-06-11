@@ -28,6 +28,7 @@ Wiadomości i pliki są szyfrowane w przeglądarce internetowej po stronie użyt
 Użytkownik podczas pierwszego logowania generuje parę kluczy RSA. Klucz publiczny jest przesyłany do serwera, a z klucza prywatnego generujemy kod QR, który użytkownik zapisuje na swoim urządzeniu. Każdorazowo użytkownik, logując się do aplikacji musi wczytać kod QR zawierający klucz prywatny.
 
 W ramach szyfrowania plików i wiadomości tekstowych wykorzystujemy algorytm AES w trybie CTR z kluczem o długości 256 bitów, którego klucz jest generowany losowo dla każdej wiadomości, a następnie jest on szyfrowany z użyciem kluczy publicznych RSA odbiorcy i nadawcy.
+  
 ![before_encryption](readme/bmp_file_before_encryption.jpg)![after_encryption](readme/bmp_file_after_encryption.jpg)
   
 *Przedstawienie zdjęcia przed i po procesie szyfrowania. (źródło: opracowanie własne, fotografia autorstwa [Diana Polekhina](https://unsplash.com/photos/person-holding-pink-plastic-hair-clip-4nUZl0FZM3U)*
