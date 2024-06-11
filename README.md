@@ -31,31 +31,31 @@ W ramach szyfrowania plików i wiadomości tekstowych wykorzystujemy algorytm AE
   
 ![before_encryption](readme/bmp_file_before_encryption.jpg)![after_encryption](readme/bmp_file_after_encryption.jpg)
   
-*Przedstawienie zdjęcia przed i po procesie szyfrowania. (źródło: opracowanie własne, fotografia autorstwa [Diana Polekhina](https://unsplash.com/photos/person-holding-pink-plastic-hair-clip-4nUZl0FZM3U)*
+*Przedstawienie zdjęcia przed i po procesie szyfrowania. (źródło: opracowanie własne, fotografia autorstwa [Diana Polekhina](https://unsplash.com/photos/person-holding-pink-plastic-hair-clip-4nUZl0FZM3U))*
 #### Szyfrowanie wiadomości
 ```
 Argumentami wejściowymi dla funkcji szyfrującej są:
-- klucz publiczny odbiorcy
-- klucz publiczny nadawcy
-- wiadomość do zaszyfrowania
+- klucz publiczny odbiorcy,
+- klucz publiczny nadawcy,
+- wiadomość do zaszyfrowania.
 
 Argumentami wyjściowymi są:
-- zaszyfrowana wiadomość
-- zaszyfrowany klucz AES
-- wektor inicjalizacyjny
-- informacja o ilości i długości kluczy wykorzystanych do szyfrowania
+- zaszyfrowana wiadomość,
+- zaszyfrowany klucz AES,
+- wektor inicjalizacyjny,
+- informacja o ilości i długości kluczy wykorzystanych do szyfrowania.
 ```
 #### Deszyfrowanie wiadomości
 ```
 Argumentami wejściowymi dla funkcji deszyfrującej są:
-- klucz prywatny odbiorcy lub nadawcy
-- zaszyfrowana wiadomość
-- zaszyfrowany klucz AES
-- wektor inicjalizacyjny
-- informacja o ilości i długości kluczy wykorzystanych do szyfrowania
+- klucz prywatny odbiorcy lub nadawcy,
+- zaszyfrowana wiadomość,
+- zaszyfrowany klucz AES,
+- wektor inicjalizacyjny,
+- informacja o ilości i długości kluczy wykorzystanych do szyfrowania.
 
 Argumentami wyjściowymi są:
-- odszyfrowana wiadomość
+- odszyfrowana wiadomość.
 ```
 ### Wybrane widoki aplikacji
 
